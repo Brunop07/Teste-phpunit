@@ -13,11 +13,11 @@ class EncerradorTest extends TestCase
     {
 
         private $encerrador;
-        /** @var EnviadorEmail|MockObject */
+        /** @var EnviadorEmail&MockObject */
         private $enviadorEmail;
         private $leilaoFiat;
         private $leilaoVariante;
-        /** @var LeilaoDao|MockObject */
+        /** @var LeilaoDao&MockObject */
         private $leilaoDao;
 
         protected function setUp(): void
